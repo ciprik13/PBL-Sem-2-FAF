@@ -1,0 +1,200 @@
+[
+    {
+        "nr.": "1",
+        "vehicle": "Snow removal equipment",
+        "starting point": "Gate 1",
+        "starting time": "9:30",
+        "ending time": "9:36",
+        "final point": "Gate 2",
+        "duration time": "6 minutes",
+        "distance, km": "3.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "2",
+        "vehicle": "Adhesion monitor",
+        "starting point": "Gate 1",
+        "starting time": "9:36",
+        "ending time": "9:42",
+        "final point": "Gate 2",
+        "duration time": "6 minutes",
+        "distance, km": "3.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "3",
+        "vehicle": "Aircraft tugs",
+        "starting point": "Gate 1",
+        "starting time": "9:45",
+        "ending time": "9:51",
+        "final point": "Gate 2",
+        "duration time": "6 minutes",
+        "distance, km": "3.9 km",
+        "status": "Cancelled"
+    },
+    {
+        "nr.": "4",
+        "vehicle": "Follow me cars",
+        "starting point": "Gate 1",
+        "starting time": "9:45",
+        "ending time": "9:51",
+        "final point": "Gate 2",
+        "duration time": "6 minutes",
+        "distance, km": "3.9 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "5",
+        "vehicle": "Jet bridges",
+        "starting point": "Gate 1",
+        "starting time": "9:51",
+        "ending time": "9:54",
+        "final point": "Gate 2",
+        "duration time": "3 minutes",
+        "distance, km": "1.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "6",
+        "vehicle": "Air stairs",
+        "starting point": "Gate 1",
+        "starting time": "9:51",
+        "ending time": "9:54",
+        "final point": "Gate 2",
+        "duration time": "3 minutes",
+        "distance, km": "1.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "7",
+        "vehicle": "Passengers shuttle buses",
+        "starting point": "Gate 1",
+        "starting time": "9:51",
+        "ending time": "9:54",
+        "final point": "Gate 2",
+        "duration time": "3 minutes",
+        "distance, km": "1.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "8",
+        "vehicle": "VIP transfer cars",
+        "starting point": "Gate 1",
+        "starting time": "9:54",
+        "ending time": "9:56",
+        "final point": "Gate 2",
+        "duration time": "3 minutes",
+        "distance, km": "1.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "9",
+        "vehicle": "Crew shuttle busses",
+        "starting point": "Gate 1",
+        "starting time": "9:56",
+        "ending time": "10:00",
+        "final point": "Gate 2",
+        "duration time": "4 minutes",
+        "distance, km": "1.5 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "10",
+        "vehicle": "Pushback tug",
+        "starting point": "Gate 1",
+        "starting time": "10:00",
+        "ending time": "10:03",
+        "final point": "Gate 2",
+        "duration time": "3 minutes",
+        "distance, km": "1.4 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "11",
+        "vehicle": "Belt loader",
+        "starting point": "Gate 1",
+        "starting time": "10:00",
+        "ending time": "10:03",
+        "final point": "Gate 2",
+        "duration time": "3 minutes",
+        "distance, km": "1.4 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "12",
+        "vehicle": "Baggage tractors",
+        "starting point": "Gate 1",
+        "starting time": "10:02",
+        "ending time": "10:05",
+        "final point": "Gate 2",
+        "duration time": "3 minutes",
+        "distance, km": "1.4 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "13",
+        "vehicle": "Cargo transporters",
+        "starting point": "Gate 1",
+        "starting time": "10:02",
+        "ending time": "10:05",
+        "final point": "Gate 2",
+        "duration time": "3 minutes",
+        "distance, km": "1.4 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "14",
+        "vehicle": "Maintenance vehicles",
+        "starting point": "Gate 1",
+        "starting time": "10:05",
+        "ending time": "10:09",
+        "final point": "Gate 2",
+        "duration time": "4 minutes",
+        "distance, km": "2.2 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "15",
+        "vehicle": "Lavatory service vehicle",
+        "starting point": "Gate 1",
+        "starting time": "10:05",
+        "ending time": "10:09",
+        "final point": "Gate 2",
+        "duration time": "4 minutes",
+        "distance, km": "2.2 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "16",
+        "vehicle": "Ground power units",
+        "starting point": "Gate 1",
+        "starting time": "10:05",
+        "ending time": "10:09",
+        "final point": "Gate 2",
+        "duration time": "4 minutes",
+        "distance, km": "1.9 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "17",
+        "vehicle": "Aircraft refueling trucks",
+        "starting point": "Gate 1",
+        "starting time": "10:09",
+        "ending time": "10:13",
+        "final point": "Gate 2",
+        "duration time": "4 minutes",
+        "distance, km": "1.8 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "18",
+        "vehicle": "Catering trucks",
+        "starting point": "Gate 1",
+        "starting time": "10:13",
+        "ending time": "10:17",
+        "final point": "Gate 2",
+        "duration time": "4 minutes",
+        "distance, km": "1.8 km",
+        "status": "Arrived"
+    }
+]

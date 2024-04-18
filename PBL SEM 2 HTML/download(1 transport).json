@@ -1,0 +1,46 @@
+[
+    {
+        "nr.": "1",
+        "vehicle": "Snow removal equipment",
+        "starting point": "R1",
+        "starting time": "03:30",
+        "ending time": "03:36",
+        "final point": "R2",
+        "duration time": "6 minutes",
+        "distance, km": "3.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "1",
+        "vehicle": "Snow removal equipment",
+        "starting point": "R1",
+        "starting time": "9:30",
+        "ending time": "9:36",
+        "final point": "R2",
+        "duration time": "6 minutes",
+        "distance, km": "3.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "1",
+        "vehicle": "Snow removal equipment",
+        "starting point": "R1",
+        "starting time": "16:45",
+        "ending time": "16:51",
+        "final point": "R2",
+        "duration time": "6 minutes",
+        "distance, km": "3.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "1",
+        "vehicle": "Snow removal equipment",
+        "starting point": "R1",
+        "starting time": "20:00",
+        "ending time": "20:06",
+        "final point": "R2",
+        "duration time": "6 minutes",
+        "distance, km": "3.6 km",
+        "status": "Arrived"
+    }
+]

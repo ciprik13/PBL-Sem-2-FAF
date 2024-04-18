@@ -1,0 +1,200 @@
+[
+    {
+        "nr.": "1",
+        "vehicle": "Snow removal equipment",
+        "starting point": "R1",
+        "starting time": "03:30",
+        "ending time": "03:36",
+        "final point": "R2",
+        "duration time": "6 minutes",
+        "distance, km": "3.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "2",
+        "vehicle": "Adhesion monitor",
+        "starting point": "R1",
+        "starting time": "03:36",
+        "ending time": "03:42",
+        "final point": "R2",
+        "duration time": "6 minutes",
+        "distance, km": "3.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "3",
+        "vehicle": "Aircraft tugs",
+        "starting point": "Runway",
+        "starting time": "03:45",
+        "ending time": "03:51",
+        "final point": "A3",
+        "duration time": "6 minutes",
+        "distance, km": "3.9 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "4",
+        "vehicle": "Follow me cars",
+        "starting point": "Runway",
+        "starting time": "03:45",
+        "ending time": "03:51",
+        "final point": "A3",
+        "duration time": "6 minutes",
+        "distance, km": "3.9 km",
+        "status": "Cancelled"
+    },
+    {
+        "nr.": "5",
+        "vehicle": "Jet bridges",
+        "starting point": "A1",
+        "starting time": "03:51",
+        "ending time": "03:54",
+        "final point": "A3",
+        "duration time": "3 minutes",
+        "distance, km": "1.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "6",
+        "vehicle": "Air stairs",
+        "starting point": "A1",
+        "starting time": "03:51",
+        "ending time": "03:54",
+        "final point": "A3",
+        "duration time": "3 minutes",
+        "distance, km": "1.6 km",
+        "status": "Cancelled"
+    },
+    {
+        "nr.": "7",
+        "vehicle": "Passengers shuttle buses",
+        "starting point": "G5",
+        "starting time": "03:54",
+        "ending time": "03:56",
+        "final point": "A3",
+        "duration time": "3 minutes",
+        "distance, km": "1.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "8",
+        "vehicle": "VIP transfer cars",
+        "starting point": "G5",
+        "starting time": "03:54",
+        "ending time": "03:56",
+        "final point": "A3",
+        "duration time": "3 minutes",
+        "distance, km": "1.6 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "9",
+        "vehicle": "Crew shuttle busses",
+        "starting point": "A1",
+        "starting time": "03:66",
+        "ending time": "04:00",
+        "final point": "A3",
+        "duration time": "4 minutes",
+        "distance, km": "1.5 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "10",
+        "vehicle": "Pushback tug",
+        "starting point": "G2",
+        "starting time": "04:00",
+        "ending time": "04:03",
+        "final point": "A3",
+        "duration time": "3 minutes",
+        "distance, km": "1.4 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "11",
+        "vehicle": "Belt loader",
+        "starting point": "G2",
+        "starting time": "04:00",
+        "ending time": "04:03",
+        "final point": "A3",
+        "duration time": "3 minutes",
+        "distance, km": "1.4 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "12",
+        "vehicle": "Baggage tractors",
+        "starting point": "G2",
+        "starting time": "04:02",
+        "ending time": "04:05",
+        "final point": "A3",
+        "duration time": "3 minutes",
+        "distance, km": "1.4 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "13",
+        "vehicle": "Cargo transporters",
+        "starting point": "G2",
+        "starting time": "04:02",
+        "ending time": "04:05",
+        "final point": "A3",
+        "duration time": "3 minutes",
+        "distance, km": "1.4 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "14",
+        "vehicle": "Maintenance vehicles",
+        "starting point": "VIP",
+        "starting time": "04:05",
+        "ending time": "04:09",
+        "final point": "A3",
+        "duration time": "4 minutes",
+        "distance, km": "2.2 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "15",
+        "vehicle": "Lavatory service vehicle",
+        "starting point": "VIP",
+        "starting time": "04:05",
+        "ending time": "04:09",
+        "final point": "A3",
+        "duration time": "4 minutes",
+        "distance, km": "2.2 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "16",
+        "vehicle": "Ground power units",
+        "starting point": "A1",
+        "starting time": "04:09",
+        "ending time": "04:13",
+        "final point": "A3",
+        "duration time": "4 minutes",
+        "distance, km": "1.9 km",
+        "status": "Cancelled"
+    },
+    {
+        "nr.": "17",
+        "vehicle": "Aircraft refueling trucks",
+        "starting point": "A1",
+        "starting time": "04:09",
+        "ending time": "04:13",
+        "final point": "A3",
+        "duration time": "4 minutes",
+        "distance, km": "1.8 km",
+        "status": "Arrived"
+    },
+    {
+        "nr.": "18",
+        "vehicle": "Catering trucks",
+        "starting point": "VIP",
+        "starting time": "04:13",
+        "ending time": "04:18",
+        "final point": "A3",
+        "duration time": "4 minutes",
+        "distance, km": "1.8 km",
+        "status": "In process"
+    }
+]

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBL project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.min.css" integrity="sha512-dTsohxprpcruDm4sjU92K0/Gf1nTKVVskNHLOGMqxmokBSkfOAyCzYSB6+5Z9UlDafFRpy5xLhvpkOImeFbX6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#table">Table</a></li>
+            <li class="link"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <header class="container" id="table">
+        <div class="content">
+            <!-- <span class="blur"></span>
+            <span class="blur"></span> -->
+            <h1><span>PBL TEAM 1</span></h1>
+            <h1>Hi, this is our <span> PBL Project </span>, have fun!</h1>
+            <p>Our project targets the critical issue of managing the traffic within airport terminals, 
+                aiming to enhance the safety and efficiency of ground operations. 
+                Due to the increasing complexity of airport environments, where numerous vehicles operate in close vicinity, 
+                our project is significantly elevating the risk of accidents and operational delays.</p>
+            <button class="btn" onclick="document.getElementById('tabel').scrollIntoView();">See the table</button>
+        </div>
+        <div class="table" style="text-align: center;">
+            <main class="table" id="customers_table">
+                <section class="table__header">
+                    <h1 id="tabel">Airport Terminal and Traffic Management</h1>
+                    <div class="input-group">
+                        <input type="search" placeholder="Search Data...">
+                        <img src="images/search.png" alt="">
+                    </div>
+                    <div class="export__file">
+                        <label for="export-file" class="export__file-btn" title="Export File"></label>
+                        <input type="checkbox" id="export-file">
+                        <div class="export__file-options">
+                            <label>Export As &nbsp; &#10140;</label>
+                            <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                        </div>
+                    </div>
+
+                    <div class="import__file">
+                        <label for="import-file" class="import__file-btn" title="Import File"></label>
+                        <input type="checkbox" id="import-file">
+                        <div class="import__file-options">
+                            <label>Import As &nbsp; &#10140;</label>
+                            <label for="jsonFileInput" for="import-file" title="Import File">JSON <img src="images/json.png" alt=""></label>
+                            <input type="file" id="jsonFileInput" accept=".json" style="display: none;">
+                            <label style="background-color: rgb(239, 146, 23);" onclick="loadJSONData()">Load JSON Data</label>
+                        </div>
+                    </div>
+
+
+                    
+
+                </section>
+                <section class="table__body">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th> Nr. <span class="icon-arrow">&UpArrow;</span></th>
+                                <th> Vehicle Type<span class="icon-arrow">&UpArrow;</span></th>
+                                <th> Starting Point <span class="icon-arrow">&UpArrow;</span></th>
+                                <th> Starting Time <span class="icon-arrow">&UpArrow;</span></th>
+                                <th> Ending Time <span class="icon-arrow">&UpArrow;</span></th>
+                                <th> Final Point <span class="icon-arrow">&UpArrow;</span></th>
+                                <th> Duration Time <span class="icon-arrow">&UpArrow;</span></th>
+                                <th> Distance, km <span class="icon-arrow">&UpArrow;</span></th>
+                                <th> Status <span class="icon-arrow">&UpArrow;</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <td>1</td>
+                            <td>Snow removal equipment</td>
+                            <td>Gate 1</td>
+                            <td>9:30</td>
+                            <td>9:36</td>
+                            <td>Gate 2</td>
+                            <td>6 minutes</td>
+                            <td>3.6 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Adhesion monitor</td>
+                            <td>Gate 1</td>
+                            <td>9:36</td>
+                            <td>9:42</td>
+                            <td>Gate 2</td>
+                            <td>6 minutes</td>
+                            <td>3.6 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Aircraft tugs</td>
+                            <td>Gate 1</td>
+                            <td>9:45</td>
+                            <td>9:51</td>
+                            <td>Gate 2</td>
+                            <td>6 minutes</td>
+                            <td>3.9 km</td>
+                            <td>
+                                <p class="status cancelled">Cancelled</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Follow me cars</td>
+                            <td>Gate 1</td>
+                            <td>9:45</td>
+                            <td>9:51</td>
+                            <td>Gate 2</td>
+                            <td>6 minutes</td>
+                            <td>3.9 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Jet bridges</td>
+                            <td>Gate 1</td>
+                            <td>9:51</td>
+                            <td>9:54</td>
+                            <td>Gate 2</td>
+                            <td>3 minutes</td>
+                            <td>1.6 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Air stairs</td>
+                            <td>Gate 1</td>
+                            <td>9:51</td>
+                            <td>9:54</td>
+                            <td>Gate 2</td>
+                            <td>3 minutes</td>
+                            <td>1.6 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Passengers shuttle buses</td>
+                            <td>Gate 1</td>
+                            <td>9:51</td>
+                            <td>9:54</td>
+                            <td>Gate 2</td>
+                            <td>3 minutes</td>
+                            <td>1.6 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>VIP transfer cars</td>
+                            <td>Gate 1</td>
+                            <td>9:54</td>
+                            <td>9:56</td>
+                            <td>Gate 2</td>
+                            <td>3 minutes</td>
+                            <td>1.6 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Crew shuttle busses</td>
+                            <td>Gate 1</td>
+                            <td>9:56</td>
+                            <td>10:00</td>
+                            <td>Gate 2</td>
+                            <td>4 minutes</td>
+                            <td>1.5 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Pushback tug</td>
+                            <td>Gate 1</td>
+                            <td>10:00</td>
+                            <td>10:03</td>
+                            <td>Gate 2</td>
+                            <td>3 minutes</td>
+                            <td>1.4 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Belt loader</td>
+                            <td>Gate 1</td>
+                            <td>10:00</td>
+                            <td>10:03</td>
+                            <td>Gate 2</td>
+                            <td>3 minutes</td>
+                            <td>1.4 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Baggage tractors</td>
+                            <td>Gate 1</td>
+                            <td>10:02</td>
+                            <td>10:05</td>
+                            <td>Gate 2</td>
+                            <td>3 minutes</td>
+                            <td>1.4 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Cargo transporters</td>
+                            <td>Gate 1</td>
+                            <td>10:02</td>
+                            <td>10:05</td>
+                            <td>Gate 2</td>
+                            <td>3 minutes</td>
+                            <td>1.4 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>Maintenance vehicles</td>
+                            <td>Gate 1</td>
+                            <td>10:05</td>
+                            <td>10:09</td>
+                            <td>Gate 2</td>
+                            <td>4 minutes</td>
+                            <td>2.2 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>Lavatory service vehicle</td>
+                            <td>Gate 1</td>
+                            <td>10:05</td>
+                            <td>10:09</td>
+                            <td>Gate 2</td>
+                            <td>4 minutes</td>
+                            <td>2.2 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>Ground power units</td>
+                            <td>Gate 1</td>
+                            <td>10:05</td>
+                            <td>10:09</td>
+                            <td>Gate 2</td>
+                            <td>4 minutes</td>
+                            <td>1.9 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>Aircraft refueling trucks</td>
+                            <td>Gate 1</td>
+                            <td>10:09</td>
+                            <td>10:13</td>
+                            <td>Gate 2</td>
+                            <td>4 minutes</td>
+                            <td>1.8 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>Catering trucks</td>
+                            <td>Gate 1</td>
+                            <td>10:13</td>
+                            <td>10:17</td>
+                            <td>Gate 2</td>
+                            <td>4 minutes</td>
+                            <td>1.8 km</td>
+                            <td>
+                                <p class="status delivered">Arrived</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </main>
+            <script src="js/script.js"></script>
+        </div>
+    </header>
+
+    <header class="container" id="home">
+        <div class="content">
+            <!-- <span class="blur"></span>
+            <span class="blur"></span> -->
+            <h1><span>PBL TEAM 1</span></h1>
+            <!-- <h4>PBL Project</h4> -->
+            <h1>Hi, this is our <span> PBL Project </span>, have fun!</h1>
+            <p>Below is a model of the map of Vienna airport, represented as a graph, where <span>Dijkstra’s algorithm</span>
+                was applied to calculate the shortest path for various operations. The airport terminal is mapped out in 
+                the graph where nodes symbolize critical locations within the airport’s system. 
+                These key locations include passenger boarding gates, baggage handling areas, maintenance zones, 
+                ground transportation stops, and other pivotal points that facilitate the smooth transition of passengers, 
+                luggage, and equipment through the airport. The edges between these nodes are carefully designed
+                to represent paths or connections, ensuring a clear and efficient layout for movement and operation</p>
+            <button class="btn" onclick="document.getElementById('python').scrollIntoView();">See the plot in Python</button>
+        </div>
+        
+        <h2 style="color: #fff; text-align: center;" id="python"><span>Dijkstra’s Algorithm applied to find the shortest path</span></h2>
+        <div style="background-color: rgb(222, 222, 220); border-radius: 20px; width: auto; height: auto;">
+            <main class="plot" id="customers_table" id="plot">
+                <!-- <div class="image" style="width: 1000px; height: 800px; justify-content: center;"> -->
+                    <img src="images/dijkstra4.png">
+                </div>
+            </main>
+        </div>
+    </header>
+
+    <!-- <section class="container" id="contact">
+        <h2 class="header">Our Features</h2>
+        <div class="features">
+            <div class="card">
+                <span><i class="ri-emotion-happy-line"></i></i></span>
+                <h4>Fast road</h4>
+                <p>Fast Road</p>
+                <a href="#">Join Now</a><i class="ri-arrow-right-line"></i>
+            </div>
+
+            <div class="card">
+                <span><i class="ri-school-line"></i></span>
+                <h4>Easy to understand</h4>
+                <p>Clear for everyone</p>
+                <a href="#">Join Now</a><i class="ri-arrow-right-line"></i>
+            </div>
+
+            <div class="card">
+                <span><i class="ri-football-line"></i></span>
+                <h4>Workers love it</h4>
+                <p>Uraaaaa</p>
+                <a href="#">Join Now</a><i class="ri-arrow-right-line"></i>
+            </div>
+
+            <div class="card">
+                <span><i class="ri-computer-line"></i></i></span>
+                <h4>IT</h4>
+                <p>My Portofolio</p>
+                <a href="#">Join Now</a><i class="ri-arrow-right-line"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="header">Project new features</h2>
+        <p class="sub-header">
+            Our project does not stop here, so we are thinking for other solutions.
+        </p>
+        <div class="pricing">
+            <div class="card">
+                <div class="content">
+                    <h4>Dijkstra Algorithm</h4>
+                    <h3>0$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Smart coding plan
+                    </p>
+
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        At home workouts
+                    </p>
+                </div>
+                <button class="btn">Join Now</button>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h4>Python is the best choice</h4>
+                    <h3>50$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Smart coding plan
+                    </p>
+
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        At home workouts
+                    </p>
+                </div>
+                <button class="btn">Join Now</button>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h4>We love to travell faster</h4>
+                    <h3>100$</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Smart coding plan
+                    </p>
+
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        At home workouts
+                    </p>
+                </div>
+                <button class="btn">Join Now</button>
+            </div>
+        </div>
+    </section> -->
+</body>
+</html>
